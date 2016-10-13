@@ -3,15 +3,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d733ac63-e93d-46d2-ba64-ed68570ca63f</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectGuid>724c8754-1da7-48ee-9dea-fd1a5558d5a1</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>
     </StartupFile>
     <SearchPath>..\..\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>MTGBoxmaker</Name>
-    <RootNamespace>MTGBoxmaker</RootNamespace>
+    <Name>LaserManager</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,19 +27,34 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\..\boxmaker_lid.inx">
-      <Link>boxmaker_lid.inx</Link>
-    </Content>
-    <Content Include="..\..\mtg_box.inx">
-      <Link>mtg_box.inx</Link>
+    <Content Include="..\..\applytransform.inx">
+      <Link>applytransform.inx</Link>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\boxmaker_lid.py">
-      <Link>boxmaker_lid.py</Link>
+    <Compile Include="..\..\applytransform.py">
+      <Link>applytransform.py</Link>
     </Compile>
-    <Compile Include="..\..\mtg_box.py">
-      <Link>mtg_box.py</Link>
+    <Compile Include="..\..\binpacker.py">
+      <Link>binpacker.py</Link>
+    </Compile>
+    <Compile Include="..\..\objects.py">
+      <Link>objects.py</Link>
+    </Compile>
+    <Compile Include="..\..\packedobject.py">
+      <Link>packedobject.py</Link>
+    </Compile>
+    <Compile Include="..\..\packer.py">
+      <Link>packer.py</Link>
+    </Compile>
+    <Compile Include="..\..\packer2.py">
+      <Link>packer2.py</Link>
+    </Compile>
+    <Compile Include="..\..\texturepacker.py">
+      <Link>texturepacker.py</Link>
+    </Compile>
+    <Compile Include="..\..\vector.py">
+      <Link>vector.py</Link>
     </Compile>
   </ItemGroup>
   <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
