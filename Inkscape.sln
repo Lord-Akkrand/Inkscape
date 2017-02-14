@@ -11,6 +11,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LaserBed", "LaserBed\LaserB
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Spaceship", "Spaceship\Spaceship.pyproj", "{A1605407-190A-4D5E-AB4A-7826D38CC766}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Facility", "Facility\Facility.pyproj", "{2CE7FF43-0E87-4391-A31F-99B5A86C117F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,8 @@ Global
 		{D6D85F2C-AB2E-4065-B39A-100B613D8763}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1605407-190A-4D5E-AB4A-7826D38CC766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1605407-190A-4D5E-AB4A-7826D38CC766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE7FF43-0E87-4391-A31F-99B5A86C117F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE7FF43-0E87-4391-A31F-99B5A86C117F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
